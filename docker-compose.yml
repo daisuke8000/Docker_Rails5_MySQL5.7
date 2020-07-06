@@ -13,7 +13,7 @@ services:
       MYSQL_PASSWORD: password
       TZ: 'Asia/Tokyo'
   web:
-    build: Taskun
+    build: .
     container_name: rails5_web
     volumes:
       - .:/usr/src/
